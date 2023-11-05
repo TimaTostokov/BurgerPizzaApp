@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingVertical="10dp"
+    android:paddingStart="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        app:cardBackgroundColor="@color/green"
+        app:cardCornerRadius="24dp"
+        tools:ignore="MissingConstraints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TextViewDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/picup"
+            android:padding="10dp"
+            android:text="@string/delivery"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
